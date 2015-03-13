@@ -71,7 +71,7 @@
 
 <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="zz" revision="cm-12.0" /> 
 <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="zz" revision="cm-12.0" />
-<project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="zz" revision="staging/cm-12.0" />
+<project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="zz" revision="cm-12.0" />
 <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="zz" revision="cm-12.0"/>
 
 <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="zz" revision="cm-12.0" />
