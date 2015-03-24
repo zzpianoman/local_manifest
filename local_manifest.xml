@@ -76,6 +76,7 @@
 
 <project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="zz" revision="cm-12.0" />
 <project path="device/samsung/toro" name="android_device_samsung_toro" remote="zz" revision="cm-12.0" />
+<project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="zz" revision="cm-12.0" />
 
 <project path="vendor/samsung" name="android_vendor_samsung" remote="zz" revision="cm-12.0" />
 <project path="vendor/cm" name="android_vendor_cm" remote="zz" revision="cm-12.0"/>
