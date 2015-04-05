@@ -118,5 +118,8 @@
 <project path="external/pdfium" name="android_external_pdfium" remote="zz" revision="cm-12.0" />
 <project path="external/stlport" name="android_external_stlport" remote="zz" revision="cm-12.0" />
 
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-linaro-4.8" name="arm-linux-androideabi-linaro-4.8" remote="zz" revision="cm-12.0" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-linaro-4.9" name="arm-linux-eabi-linaro-4.9" remote="zz" revision="cm-12.0" />
+<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" remote="zz" revision="cm-12.0" />
 
 </manifest>
