@@ -19,12 +19,18 @@
 <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
 <!--
 <remove-project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
+-->
 <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
+<!--
 <remove-project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
+-->
 <remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
+<!--
 <remove-project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
 <remove-project path="libcore" name="CyanogenMod/android_libcore" />
 -->
+<remove-project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
+<remove-project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
 <remove-project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
 <remove-project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
 <remove-project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
@@ -50,12 +56,7 @@
 <remove-project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <remove-project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <remove-project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
 <remove-project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
-<remove-project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-<remove-project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-<remove-project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
-<remove-project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
 <remove-project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
@@ -103,11 +104,13 @@
 <!--
 <project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="zz" revision="cm-12.0"/>
 <project path="frameworks/ex" name="android_frameworks_ex" remote="zz" revision="cm-12.0"/>
-<project path="frameworks/native" name="android_frameworks_native" remote="zz" revision="cm-12.0"/>
-<project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="zz" revision="cm-12.0"/>
-
-<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="zz" revision="cm-12.0" />
 -->
+<project path="frameworks/native" name="android_frameworks_native" remote="zz" revision="cm-12.1"/>
+<!--
+<project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="zz" revision="cm-12.0"/>
+-->
+<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="zz" revision="cm-12.1" />
+
 
 <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="zz" revision="cm-12.0" /> 
 
@@ -135,9 +138,11 @@
 <project path="external/stlport" name="android_external_stlport" remote="zz" revision="cm-12.0" />
 -->
 
-
+<!--
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-linaro-4.8" name="arm-linux-androideabi-linaro-4.8" remote="zz" revision="cm-12.0" />
+
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-linaro-4.9" name="arm-linux-eabi-linaro-4.9" remote="zz" revision="cm-12.0" />
+-->
 <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" remote="zz" revision="cm-12.0" />
 
 </manifest>
