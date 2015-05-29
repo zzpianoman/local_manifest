@@ -41,7 +41,7 @@
 <remove-project path="external/openssl" name="CyanogenMod/android_external_openssl" />
 <remove-project path="external/openssh" name="CyanogenMod/android_external_openssh" />   
 -->
-
+<remove-project path="libcore" name="CyanogenMod/android_libcore" />
 
 <remove-project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
 <remove-project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
@@ -138,6 +138,7 @@
 <project path="external/stlport" name="android_external_stlport" remote="zz" revision="cm-12.0" />
 -->
 
+<project path="libcore" name="android_libcore" remote="zz" revision="cm-12.1" />
 
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-linaro-4.8" name="arm-linux-androideabi-linaro-4.8" remote="zz" revision="cm-12.0" />
 <!--
