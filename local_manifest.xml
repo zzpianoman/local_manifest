@@ -37,7 +37,9 @@
 <remove-project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
 <!--
 <remove-project path="external/lsof" name="CyanogenMod/android_external_lsof" />
-<remove-project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" /> 
+-->
+<remove-project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
+<!--
 <remove-project path="external/openssl" name="CyanogenMod/android_external_openssl" />
 <remove-project path="external/openssh" name="CyanogenMod/android_external_openssh" />   
 -->
@@ -121,9 +123,9 @@
 <project path="build" name="android_build" remote="zz" revision="cm-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-<!--
-<project path="system/core" name="android_system_core" remote="zz" revision="cm-12.0"/>
 
+<project path="system/core" name="android_system_core" remote="zz" revision="cm-12.1"/>
+<!--
 <project path="art" name="android_art" groups="pdk" remote="zz" revision="cm-12.0"/>
 <project path="libcore" name="android_libcore" remote="zz" revision="cm-12.0"/>
 
