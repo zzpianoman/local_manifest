@@ -7,9 +7,9 @@
 <!--
 <remove-project path="art" name="CyanogenMod/android_art" groups="pdk" />
 <remove-project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
--->
+
 <remove-project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" />
-<!--
+
 <remove-project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" />
 <remove-project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" remote="aosp"/>
 <remove-project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -19,32 +19,32 @@
 <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
 <!--
 <remove-project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
--->
+
 <remove-project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
-<!--
+
 <remove-project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" />
--->
+
 <remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
-<!--
+
 <remove-project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
 <remove-project path="libcore" name="CyanogenMod/android_libcore" />
--->
+
 <remove-project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
 <remove-project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" />
 <remove-project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
 <remove-project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
 <remove-project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
 <remove-project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
-<!--
+
 <remove-project path="external/lsof" name="CyanogenMod/android_external_lsof" />
--->
+
 <remove-project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
-<!--
+
 <remove-project path="external/openssl" name="CyanogenMod/android_external_openssl" />
 <remove-project path="external/openssh" name="CyanogenMod/android_external_openssh" />   
--->
-<remove-project path="libcore" name="CyanogenMod/android_libcore" />
 
+<remove-project path="libcore" name="CyanogenMod/android_libcore" />
+-->
 <remove-project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
 <remove-project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
 <remove-project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
@@ -60,94 +60,128 @@
 <remove-project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
 <remove-project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
 <remove-project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="arm,darwin,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/clang/darwin-x86/host/3.4" name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin,pdk-cw-fs,x86" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="pdk,darwin,arm" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
-<remove-project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" revision="master" />
-<remove-project path="frameworks/testing" name="platform/frameworks/testing" remote="aosp" revision="android-support-test" />
+<remove-project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" remote="aosp" />
+<remove-project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" remote="aosp" />
+<remove-project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" remote="aosp" />
+<remove-project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" remote="aosp" />
+<remove-project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" remote="aosp" />
+<remove-project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" remote="aosp" />
+<remove-project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" remote="aosp" />
+<remove-project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" />
+<remove-project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
+
+<remove-project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
+<remove-project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
+<remove-project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
+<remove-project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
+<remove-project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
+<remove-project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" />
+<remove-project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
+<remove-project path="hardware/qcom/media/default" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
+<remove-project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
+
+<remove-project path="hardware/intel/common/libmix" name="CyanogenMod/android_hardware_intel_common_libmix" groups="intel" />
+<remove-project path="hardware/intel/common/libwsbm" name="CyanogenMod/android_hardware_intel_common_libwsbm" groups="intel" />
+<remove-project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" />
+<remove-project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
+<remove-project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
+<remove-project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+<remove-project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
+<!--
+<remove-project path="vendor/qcom/opensource/display-frameworks" name="CyanogenMod/android_vendor_qcom_opensource_display-frameworks" />
+<remove-project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
+<remove-project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
+-->
+<remove-project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
+<remove-project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
+<remove-project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
+<remove-project path="hardware/intel/common/libstagefrighthw" name="platform/hardware/intel/common/libstagefrighthw" groups="intel" remote="aosp"/>
+<remove-project path="hardware/intel/common/libva" name="platform/hardware/intel/common/libva" groups="intel" remote="aosp" />
+<remove-project path="hardware/intel/common/omx-components" name="platform/hardware/intel/common/omx-components" groups="intel" remote="aosp" />
+<remove-project path="hardware/intel/common/utils" name="platform/hardware/intel/common/utils" groups="intel" remote="aosp" />
+<remove-project path="hardware/intel/common/wrs_omxil_core" name="platform/hardware/intel/common/wrs_omxil_core" groups="intel" remote="aosp" />
+<remove-project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
+<remove-project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" remote="aosp" />
+<remove-project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" remote="aosp" />
+<remove-project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" remote="aosp" />
+<remove-project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" remote="aosp" />
+<remove-project path="hardware/qcom/msm8994" name="platform/hardware/qcom/msm8994" groups="qcom_msm8994" remote="aosp" />
+<remove-project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" remote="aosp" />
+<remove-project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" />
+<remove-project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="pdk,qcom_msm8x74" remote="aosp" />
+<remove-project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" />
+<remove-project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" remote="aosp" />
+
 <!--
 <remove-project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" />
 <remove-project path="external/jsoncpp" name="platform/external/jsoncpp" groups="pdk-cw-fs" remote="aosp" />
--->
+
 <remove-project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
 
-<project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="zz" revision="cm-12.1" />
-<project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="zz" revision="cm-12.1" /> 
-<project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="zz" revision="cm-12.1" />
-<project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="zz" revision="cm-12.1" />
-<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="zz" revision="cm-12.1"/>
+<remove-project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="zz" revision="cm-12.1" />
+<remove-project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="zz" revision="cm-12.1" /> 
+<remove-project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="zz" revision="cm-12.1" />
+<remove-project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="zz" revision="cm-12.1" />
+<remove-project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="zz" revision="cm-12.1"/>
+-->
+
+<project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="zz" revision="cm-13.0" />
+<project path="device/samsung/toro" name="android_device_samsung_toro" remote="zz" revision="cm-13.0" />
+<project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="zz" revision="cm-13.0" />
+
+<project path="vendor/samsung" name="android_vendor_samsung" remote="zz" revision="cm-13.0" />
+<!--
+<remove-project path="vendor/cm" name="android_vendor_cm" remote="zz" revision="cm-12.1"/>
+-->
+<project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="zz" revision="cm-13.0" />
 
 
-<project path="device/samsung/tuna" name="android_device_samsung_tuna" remote="zz" revision="cm-12.1" />
-<project path="device/samsung/toro" name="android_device_samsung_toro" remote="zz" revision="cm-12.1" />
-<project path="device/samsung/maguro" name="android_device_samsung_maguro" remote="zz" revision="cm-12.1" />
-
-<project path="vendor/samsung" name="android_vendor_samsung" remote="zz" revision="cm-12.1" />
-
-<project path="vendor/cm" name="android_vendor_cm" remote="zz" revision="cm-12.1"/>
-
-<project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="zz" revision="cm-12.1" />
-
-
-<project path="frameworks/av" name="android_frameworks_av" remote="zz" revision="cm-12.1" />
-<project path="frameworks/base" name="android_frameworks_base" remote="zz" revision="cm-12.1"/>
+<project path="frameworks/av" name="android_frameworks_av" remote="zz" revision="cm-13.0" />
+<project path="frameworks/base" name="android_frameworks_base" remote="zz" revision="cm-13.0"/>
 
 <!--
-<project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="zz" revision="cm-12.0"/>
-<project path="frameworks/ex" name="android_frameworks_ex" remote="zz" revision="cm-12.0"/>
--->
-<project path="frameworks/native" name="android_frameworks_native" remote="zz" revision="cm-12.1"/>
-<!--
-<project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="zz" revision="cm-12.0"/>
--->
-<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="zz" revision="cm-12.1" />
+<remove-project path="frameworks/wilhelm" name="android_frameworks_wilhelm" remote="zz" revision="cm-12.0"/>
+<remove-project path="frameworks/ex" name="android_frameworks_ex" remote="zz" revision="cm-12.0"/>
 
+<remove-project path="frameworks/native" name="android_frameworks_native" remote="zz" revision="cm-12.1"/>
+
+<remove-project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="zz" revision="cm-12.0"/>
+
+<remove-project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="zz" revision="cm-12.1" />
+-->
 
 <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" remote="zz" revision="cm-12.0" /> 
 
 <!--
-<project path="bionic" name="android_bionic" remote="zz" revision="cm-12.0" />
--->
+<remove-project path="bionic" name="android_bionic" remote="zz" revision="cm-12.0" />
 
-<project path="build" name="android_build" remote="zz" revision="cm-12.1" >
+
+<remove-project path="build" name="android_build" remote="zz" revision="cm-12.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-<project path="system/core" name="android_system_core" remote="zz" revision="cm-12.1"/>
-<!--
-<project path="art" name="android_art" groups="pdk" remote="zz" revision="cm-12.0"/>
-<project path="libcore" name="android_libcore" remote="zz" revision="cm-12.0"/>
+<remove-project path="system/core" name="android_system_core" remote="zz" revision="cm-12.1"/>
 
-<project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="zz" revision="cm-12.0"/>
-<project path="external/dnsmasq" name="android_external_dnsmasq" remote="zz" revision="cm-12.0" />
-<project path="external/iputils" name="android_external_iputils" remote="zz" revision="cm-12.0"/>
-<project path="external/jsoncpp" name="android_external_jsoncpp" remote="zz" revision="cm-12.0" />
-<project path="external/lsof" name="android_external_lsof" remote="zz" revision="cm-12.0"/>
-<project path="external/openssh" name="android_external_openssh" remote="zz" revision="cm-12.0"/>
-<project path="external/openssl" name="android_external_openssl" remote="zz" revision="cm-12.0"/>
-<project path="external/pdfium" name="android_external_pdfium" remote="zz" revision="cm-12.0" />
-<project path="external/stlport" name="android_external_stlport" remote="zz" revision="cm-12.0" />
+<remove-project path="art" name="android_art" groups="pdk" remote="zz" revision="cm-12.0"/>
+<remove-project path="libcore" name="android_libcore" remote="zz" revision="cm-12.0"/>
+
+<remove-project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="zz" revision="cm-12.0"/>
+<remove-project path="external/dnsmasq" name="android_external_dnsmasq" remote="zz" revision="cm-12.0" />
+<remove-project path="external/iputils" name="android_external_iputils" remote="zz" revision="cm-12.0"/>
+<remove-project path="external/jsoncpp" name="android_external_jsoncpp" remote="zz" revision="cm-12.0" />
+<remove-project path="external/lsof" name="android_external_lsof" remote="zz" revision="cm-12.0"/>
+<remove-project path="external/openssh" name="android_external_openssh" remote="zz" revision="cm-12.0"/>
+<remove-project path="external/openssl" name="android_external_openssl" remote="zz" revision="cm-12.0"/>
+<remove-project path="external/pdfium" name="android_external_pdfium" remote="zz" revision="cm-12.0" />
+<remove-project path="external/stlport" name="android_external_stlport" remote="zz" revision="cm-12.0" />
+
+
+<remove-project path="libcore" name="android_libcore" remote="zz" revision="cm-12.1" />
+
+<remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-linaro-4.8" name="arm-linux-androideabi-linaro-4.8" remote="zz" revision="cm-12.0" />
+
+<remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-linaro-4.9" name="arm-linux-eabi-linaro-4.9" remote="zz" revision="cm-12.0" />
+
+<remove-project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" remote="zz" revision="cm-12.0" />
 -->
-
-<project path="libcore" name="android_libcore" remote="zz" revision="cm-12.1" />
-<!--
-<project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-linaro-4.8" name="arm-linux-androideabi-linaro-4.8" remote="zz" revision="cm-12.0" />
-
-<project path="prebuilts/gcc/linux-x86/arm/arm-linux-eabi-linaro-4.9" name="arm-linux-eabi-linaro-4.9" remote="zz" revision="cm-12.0" />
--->
-<project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="arm-eabi-4.7" remote="zz" revision="cm-12.0" />
-
 </manifest>
